@@ -9,9 +9,11 @@ Learn more about expo: https://expo.io/
 To run locally:
 
 - **Start jsonserver**: To start up mock-DB, cd to `jsonserver` dir
-
+  
+  - Install dependecies: `npm i`
   - run : `npm run db` : It will start your mock db
   - run : `npm run tunnel` : It will start an ngrok server to which can be accessed from anywhere, you needn't be on the same internet connection or same device
 
 - **Start BlogApp**: This is the actual app, cd to `blog` dir
+  - Install dependecies: `npm i`
   - run: `npm run start`
